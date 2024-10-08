@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carcase {
+    max-width: 300px;
+    max-height: 600px;
+    width: 100%;
+    height: auto;
+    padding: 18px;
+    padding-TOP: 24px;
+    background-color: #141414;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+button {
+    flex: 1 1 20%;
+    height: 60px;
+    text-align: center;
+    margin: 2px;
+    font-size: 1.8rem;
+    font-family: "Archivo Narrow", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #202020;
+    color: #ebefff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.display {
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #9aacac;
+    color: #141414;
+    padding: 36px;
+    font-size: 2rem;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
